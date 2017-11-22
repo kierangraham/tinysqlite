@@ -162,7 +162,7 @@ public class Statement {
         var parameters: [SQLiteValue?] = Array(repeating: nil, count: Int(totalBindCount))
         
         for (name, value) in parameterMapping {
-            let index = sqlite3_bind_parameter_index(statementHandle, ":\(name)")
+            let index = Int(sqlite3_bind_parameter_index(statementHandle, ":\(name)"))
             
             parameters[index-1] = value
         }
