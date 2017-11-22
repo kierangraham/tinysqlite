@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		390427361E51FFB300113218 /* DatabaseConnectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390427351E51FFB300113218 /* DatabaseConnectionTests.swift */; };
 		390427381E51FFB300113218 /* TinySQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 390688E81D940E7300F94658 /* TinySQLite.framework */; };
-		390427431E5202D700113218 /* Nimble.framework in Resources */ = {isa = PBXBuildFile; fileRef = 3904273E1E52013400113218 /* Nimble.framework */; };
-		390427441E52040100113218 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3904273E1E52013400113218 /* Nimble.framework */; };
 		3904274D1E52194800113218 /* ResultHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3904274C1E52194800113218 /* ResultHandlerTests.swift */; };
 		390427511E531DC500113218 /* ResultHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3904274E1E531DC500113218 /* ResultHandler.swift */; };
 		390427521E531DC500113218 /* SQLiteValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3904274F1E531DC500113218 /* SQLiteValue.swift */; };
@@ -19,8 +17,8 @@
 		390688F61D940EFC00F94658 /* DatabaseConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390688F31D940EFC00F94658 /* DatabaseConnection.swift */; };
 		390688F71D940EFC00F94658 /* DatabaseQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390688F41D940EFC00F94658 /* DatabaseQueue.swift */; };
 		390688F81D940EFC00F94658 /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390688F51D940EFC00F94658 /* Statement.swift */; };
-		390688FD1D9416C500F94658 /* sqlite3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 390688FC1D9416C500F94658 /* sqlite3.framework */; };
-		399923251D9596E300C66AE4 /* sqlite3.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 390688FC1D9416C500F94658 /* sqlite3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6623F79D1FC5B2E0001A2F91 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6623F79C1FC5B2E0001A2F91 /* libsqlite3.tbd */; };
+		6623F79F1FC5B50A001A2F91 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6623F79E1FC5B509001A2F91 /* Nimble.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +38,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				399923251D9596E300C66AE4 /* sqlite3.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,7 +47,6 @@
 		390427331E51FFB300113218 /* TinySQLiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinySQLiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		390427351E51FFB300113218 /* DatabaseConnectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseConnectionTests.swift; sourceTree = "<group>"; };
 		390427371E51FFB300113218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3904273E1E52013400113218 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		3904274C1E52194800113218 /* ResultHandlerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultHandlerTests.swift; sourceTree = "<group>"; };
 		3904274E1E531DC500113218 /* ResultHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultHandler.swift; path = Classes/ResultHandler.swift; sourceTree = "<group>"; };
 		3904274F1E531DC500113218 /* SQLiteValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLiteValue.swift; path = Classes/SQLiteValue.swift; sourceTree = "<group>"; };
@@ -61,7 +57,8 @@
 		390688F31D940EFC00F94658 /* DatabaseConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseConnection.swift; path = Classes/DatabaseConnection.swift; sourceTree = "<group>"; };
 		390688F41D940EFC00F94658 /* DatabaseQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseQueue.swift; path = Classes/DatabaseQueue.swift; sourceTree = "<group>"; };
 		390688F51D940EFC00F94658 /* Statement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Statement.swift; path = Classes/Statement.swift; sourceTree = "<group>"; };
-		390688FC1D9416C500F94658 /* sqlite3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = sqlite3.framework; path = Carthage/Build/iOS/sqlite3.framework; sourceTree = "<group>"; };
+		6623F79C1FC5B2E0001A2F91 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		6623F79E1FC5B509001A2F91 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +66,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				390427441E52040100113218 /* Nimble.framework in Frameworks */,
 				390427381E51FFB300113218 /* TinySQLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,7 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				390688FD1D9416C500F94658 /* sqlite3.framework in Frameworks */,
+				6623F79D1FC5B2E0001A2F91 /* libsqlite3.tbd in Frameworks */,
+				6623F79F1FC5B50A001A2F91 /* Nimble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,8 +129,8 @@
 		390688F91D940F1F00F94658 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3904273E1E52013400113218 /* Nimble.framework */,
-				390688FC1D9416C500F94658 /* sqlite3.framework */,
+				6623F79E1FC5B509001A2F91 /* Nimble.framework */,
+				6623F79C1FC5B2E0001A2F91 /* libsqlite3.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -236,7 +233,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				390427431E5202D700113218 /* Nimble.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

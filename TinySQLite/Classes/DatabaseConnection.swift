@@ -5,7 +5,7 @@
 //  Created by Øyvind Grimnes on 25/12/15.
 //
 
-import sqlite3
+import SQLite3
 
 
 

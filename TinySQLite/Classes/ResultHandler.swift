@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import sqlite3
+import SQLite3
 
 
 internal struct ResultHandler {

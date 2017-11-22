@@ -9,7 +9,7 @@
 import XCTest
 import Foundation
 import Nimble
-import sqlite3
+import SQLite3
 
 
 @testable import TinySQLite
